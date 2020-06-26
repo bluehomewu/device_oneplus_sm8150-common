@@ -87,31 +87,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
-# Prebuilt Permissions
-PRODUCT_COPY_FILES += \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libbarhopper.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libbarhopper.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libcvface_api.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libcvface_api.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libimage.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libimage.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libjni_cvface_api.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libjni_cvface_api.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libjnistblur_preview_api.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libjnistblur_preview_api.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/liblens_image_util.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/liblens_image_util.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/liblink_engine_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/liblink_engine_jni.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libmegface.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libmegface.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libmegvii_scene.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libmegvii_scene.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libmorpho_buildprop_util.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libmorpho_buildprop_util.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libmorpho_memory_allocator.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libmorpho_panorama_gp3.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libmorpho_panorama_viewer.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libmorpho_panorama_viewer.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libmorpho_sensor_fusion.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libnative-lib.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libnative-lib.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libocr.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libocr.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libopbaselib.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libopbaselib.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libopcamera.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libopcamera.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libopcameralib.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libopcameralib.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libstblur_preview_api.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libstblur_preview_api.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libtext_orientation_classifier_high_resolution_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libtext_orientation_classifier_high_resolution_jni.so \
-device/oneplus/sm8150-common/prebuilts/priv-app/OnePlusCamera/lib/arm64/libvertical_orientation_classifier_jni_coarse.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/OnePlusCamera/lib/arm64/libvertical_orientation_classifier_jni_coarse.so 
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService
